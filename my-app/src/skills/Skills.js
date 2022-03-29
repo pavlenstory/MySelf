@@ -3,24 +3,25 @@ import styled from 'styled-components';
 
 const TitleWrapper = styled.div`
   height: 110px;
+  text-align: center;
 `
 
-const Title = styled.div`
+const TitleElement = styled.div`
   margin: 40px -15px 0 -15px;
   display: inline-block;
   font-size: 24px;
   transform: rotate(90deg);
 `
 
-function Skills() {
+function Title() {
     return (
       <TitleWrapper>
-        <Title>SKILLS</Title>
-        <Title>SKILLS</Title>
-        <Title>SKILLS</Title>
+        <TitleElement>SKILLS</TitleElement>
+        <TitleElement>SKILLS</TitleElement>
+        <TitleElement>SKILLS</TitleElement>
       </TitleWrapper>
     );
   }
   
-export default Skills;
+export default Title;
   

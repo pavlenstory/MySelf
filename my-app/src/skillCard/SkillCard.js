@@ -50,8 +50,10 @@ const CardWrapper = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  height: 100vh;
   gap: 3vh;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
 `
 
 function SkillCard() {
